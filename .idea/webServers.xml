@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="245389cc-addf-4bc2-9b2b-6f82149dd0f6" name="111" url="http://spl94.hosting.reg.ru">
+        <fileTransfer rootFolder="/mt-webapp.ru/handler/qualityControl" host="spl94.hosting.reg.ru" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

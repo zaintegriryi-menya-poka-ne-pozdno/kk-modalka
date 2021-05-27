@@ -1,0 +1,25 @@
+ul li {
+    list-style: none; /* убираем дефолтные маркеры */
+}
+
+.list span {
+    cursor: pointer;
+}
+
+.hide::before {
+    content: "\25BA"; /* украшательство вместо маркера */
+    padding-right: 1px; /* Расстояние от маркеров до текста */
+    color: Lime; /* Маркеры красного цвета */
+}
+
+.show::before {
+    content: "\25BC"; /* украшательство вместо маркера */
+    padding-right: 1px; /* Расстояние от маркеров до текста */
+    color: GreenYellow; /* Маркеры красного цвета */
+}
+.forover{
+    max-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
